@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>flexbox Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <img class="logo"
+            src="https://st4.depositphotos.com/14009552/38450/v/450/depositphotos_384500344-stock-illustration-shopping-cart-logo-design-letter.jpg" />
+
+
+        <div class="menu">
+            <a class="a-menu">category</a>
+            <a class="a-menu">deals</a>
+            <a class="a-menu">What's New</a>
+            <a class="a-menu">Delivery</a>
+            <a class="a-menu"></a>
+        </div>
+        <div class="account">
+            <img class="img-acc" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" />
+            <a class="a-acc">Account</a>
+        </div>
+        <div class="cart">
+            <img class="img-cart"
+                src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" />
+            <a class="a-cart">Cart</a>
+        </div>
+
+
+
+    </div>
+    <div class="cover">
+        <img class="img-cover" src="cover.jpg">
+    </div>
+
+    <div class="brandh">
+        <h2 class="Titrebrand">Choose By Brand</h2>
+
+        <div class="rowb1">
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://w7.pngwing.com/pngs/141/850/png-transparent-nike-logo-movement-brands-nike.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> Nike</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> Apple</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://www.1min30.com/wp-content/uploads/2017/06/Symbole-Playstation.jpg" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> PlayStation</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="data:image/png;base64,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" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> Bosch</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class="rowb1">
+            <div class="brand">
+                <img class="brand-img" src="https://logos-marques.com/wp-content/uploads/2021/03/Samsung-Logo.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> Samsung</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://news.microsoft.com/wp-content/uploads/prod/sites/113/2017/06/Microsoft-logo_rgb_c-wht.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> Microsoft</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://turbologo.com/articles/wp-content/uploads/2020/01/louis-vuitton-primary-logo.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre">Louis Vuitton</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+                </div>
+
+
+
+            </div>
+            <div class="brand">
+                <img class="brand-img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HP_logo_2012.svg/1200px-HP_logo_2012.svg.png" />
+                <div class="brand-detail">
+
+                    <h4 class="brand-titre"> HP</h4>
+                    <h6 class="Delivery">Delivery with in 24h </h6>
+
+
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="sales">
+            <h2 class="Titresales">Todays Best Deals For You ! </h2>
+
+
+            <div class="bouttons">
+                <button class="liste">Gadgets</button>
+                <button class="liste">Fashion</button>
+                <button class="liste">Toys</button>
+                <button class="liste">Education</button>
+                <button class="liste">Beauty</button>
+                <button class="liste">Fitness</button>
+                <button class="liste">Funiture</button>
+                <button class="liste">Sneakers</button>
+
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="row">
+                <div class="card">
+                    <img class="product-img"
+                        src="https://ae01.alicdn.com/kf/S9d95919997484aa493bb30fe38e7de458/Smartphone-S23-Ultra-5G-t-l-phone-portable-plein-cran-6-7-pouces-6800mAh-version-globale.jpg_.webp"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> Smartphone S23 Ultra 5G </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc">téléphone portable plein écran 6.7 pouces, 6800mAh, <br>version globale,
+                            4G, touristes, SIM, mobile, matin,<br> 16 Go + 1 To, téléphones Android</h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/75aee7eb0fc343d484c9adf30019d225_9366/Chaussure_Forum_Low_Blanc_GY8556_01_standard.jpg"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> CHAUSSURE FORUM LOW</h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc">UNE SNEAKER FORUM BASSE CONÇUE <br>EN PARTIE AVEC DES MATIÈRES RECYCLÉES.
+                        </h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://ae01.alicdn.com/kf/S6467946ac6414454a24bffa15f2e0080P/Pro6-TWS-couteurs-sans-fil-Bluetooth-5-0-oreillettes-de-sport-casque-de-musique-pour-tous.jpg_.webp"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> Pro6 TWS-Écouteurs 5.0</h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc"> casque de musique pour tous les smartphones . </h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://ae04.alicdn.com/kf/S760362f63a5c4745b07d3e2a7f0a9f73Y.jpg_.webp" alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> Ultra série 8 </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc"> Montre connectée pour Apple,<br> bracelet pour hommes et femmes, <br>avec
+                            température corporelle, NFC,<br> charge sans fil, Bluetooth, appel, nouveau, 2023 </h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="card">
+                    <img class="product-img"
+                        src="https://ae01.alicdn.com/kf/S7ae5258e243a49b387c75aedc9c3f2cd5/Carte-de-plong-e-RTX3080-10G-GAMING-Mllse-GDDR6X-320Bit-8Pin-8Pin-1440-1710MHz-19Gbps-DirectX.jpg_640x640.jpg"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> NIVIDIA RTX3080 GAMING </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc">Carte de plongée RTX3080-10G-GAMING Mllse<br> GDDR6X 320Bit 8Pin+ 8Pin
+                            1440-1710MHz 19Gbps <br>DirectX 12carte vidéo rtx 3080 pour ordinateur de bureau
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://mk-media.mytek.tn/media/catalog/product/cache/8be3f98b14227a82112b46963246dfe1/0/1/010-02159-14_1793_1_1.jpg"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> IPHONE 14 128GO </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc"> Capacité de stockage
+                            128 Go <br>
+
+                            Taille de l'écran (pouces)
+                            6,1" <br>
+
+                            Couleur
+                            Lumière stellaire <br>
+
+                            Système d'exploitation
+                            iOS 16</h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/de0bf6db-909d-4652-b236-1ad2cd2b19fe/shaker-hypercharge-71-cl-nr0qGn.png"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre">Nike Shaker </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc"> Nike HyperCharge 71 cl </h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+                <div class="card">
+                    <img class="product-img"
+                        src="https://ae01.alicdn.com/kf/S15934effac54489887510e8e42723cecG/Manette-sans-fil-Xbox-One-noir-carbone-console-de-jeu-accessoires-options-de-documents-multiples-s.jpg_.webp"
+                        alt="logo" />
+                    <div class="card-detail">
+                        <div class="head-card">
+                            <h4 class="card-titre"> Manette sans fil Xbox One </h4>
+                            <h5 class="price">59.00 $ </h5>
+                        </div>
+                        <h6 class="card-desc"> Manette sans fil Xbox One, noir carbone,console de jeu, <br>accessoires,
+                            options de documents multiples, série X S</h6>
+
+                    </div>
+                    <div class="avis">
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <img class="etoile" src="https://icones.pro/wp-content/uploads/2021/02/icone-etoile-verte.png"
+                            alt="etoile" />
+                        <h5 class="num-avis">(121)</h5>
+
+                    </div>
+                    <button class="card-btn">Add to Cart</button>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <hr class="ligne">
+
+        <div class="shopcart">
+            <div class="col" style="flex-direction: row; display: flex;">
+
+<div >  <img class="col-img" src="https://st4.depositphotos.com/14009552/38450/v/450/depositphotos_384500344-stock-illustration-shopping-cart-logo-design-letter.jpg"> </div>
+<div><p class="para" style="text-align: center;"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br> Velit officia consequat duis enim velit mollitAmet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit</p></div>
+
+</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+            <div class="col">
+                <h4 class="col-titre"> Departement</h4>
+                <a class="colA">Fashion</a>
+                <a class="colA">Education Product</a>
+                <a class="colA">Frozen Food</a>
+                <a class="colA">Beverages</a>
+
+
+            </div>
+
+            <div class="col">
+
+                <h4 class="col-titre" > About Us</h4>
+                <a class="colA">About Shopcart</a>
+                <a class="colA">careers</a>
+                <a class="colA">News & blog</a>
+                <a class="colA">Help</a>
+
+
+            </div>
+
+            <div class="col">
+                <h4 class="col-titre"> Services</h4>
+                <a class="colA">Gift Card</a>
+                <a class="colA">Mobile App</a>
+                <a class="colA">Shipping & Delivery</a>
+                <a class="colA">Order Pickup</a>
+
+
+            </div>
+
+            <div class="col">
+                <h4 class="col-titre"> Help</h4>
+                <a class="colA">Shopcart Help</a>
+                <a class="colA">Returns</a>
+                <a class="colA">Track Orders</a>
+                <a class="colA">Contact Us</a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

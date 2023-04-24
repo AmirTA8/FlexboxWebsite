@@ -1,0 +1,216 @@
+body{
+    margin: 0px;
+}
+
+
+.row{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+
+}
+
+.product-img{
+    width:250px;
+    height: 250px;
+}
+
+
+button{
+    border-radius: 20px;
+    padding: 5px 10px ;
+    background-color: white;
+}
+
+.etoile{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.num-avis {
+    display: inline-block;
+    margin: 10px;
+    position:relative ;
+    top: -6px; 
+}
+
+
+
+.head-card { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-titre , .price { 
+    display: block;
+
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    position: relative; 
+    right: -35px;
+
+}
+
+.menu {
+    display: inline-block;
+    position: relative;
+    
+}
+
+.a-menu {
+    margin-right: 50px;
+    font-weight: bold;
+    top: -39px;
+    right: -340px;
+    text-transform: uppercase;
+    
+
+}
+
+.navbar{
+    background-color: white;
+
+}
+
+.account{
+    display: inline-block;
+    position: relative; 
+    
+}
+
+.img-acc  {
+    width: 40px;
+    height: 30px;
+}
+
+.menu , .account , .cart {
+    display: inline-block;
+    position: relative;
+    top: -27px;
+    left: 600px;
+
+
+}
+.img-cart{
+    width: 25px;
+    height: 17px;
+    
+}
+
+.account , .cart {
+    margin-right: 20px;
+}
+.img-cover {
+    
+    height:1400 px;
+    width: 100%;
+}
+.brand-img{
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -3px;
+    right: -10px;
+}
+.rowb1{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+.brand-detail{
+    display: inline-block;
+    position: relative;
+    right: -20px;
+}
+.brand{
+    background-color: #D3D3D3;
+    width: 230px;
+    height: 60px;
+    border-radius: 10px;
+    border: 2px groove;
+    border-color: blueviolet;
+}
+.Delivery{
+    position: relative;
+    top: -17px;
+}
+.brand-titre {
+    margin-block-start: 2px;
+    margin-block-end: 2px;
+}
+
+.Titrebrand{
+    margin: 50px;
+}
+
+.Titresales{
+    margin: 35px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.bouttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 650px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    
+    
+
+}
+
+.liste{
+    
+    background-color: #E5E4E2;
+    border: 2px groove;
+    border-color: blueviolet;
+    
+
+}
+
+.ligne {
+    border: 1px solid blueviolet;
+    width: 1300px;
+    margin-top: 50px;
+
+}
+
+.colA{
+    display: block;
+}
+
+.shopcart{
+    display: flex;
+    text-align: left; 
+    padding-bottom: 20px;
+    
+}
+
+.col{
+    margin: 10px 50px;
+    
+    position: relative;
+}
+.col-img{
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+
+.para{ 
+    display: inline;
+    position: relative;
+    bottom: -35px;
+    line-height: 32px;
+} 
+
